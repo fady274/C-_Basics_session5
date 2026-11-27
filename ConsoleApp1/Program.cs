@@ -27,16 +27,23 @@
 
             #region Q04
 
-            Book B = new Book();
-            B.type = Genre.Science;
+            //Book B = new Book();
+            //B.type = Genre.Science;
             //Console.WriteLine(B.type);
             #endregion
 
             #region Q05
-            Console.WriteLine((int)Genre.Fiction);
-            Console.WriteLine((int)Genre.NonFiction);
-            Console.WriteLine((int)Genre.Science);
+            //Console.WriteLine((int)Genre.Fiction);
+            //Console.WriteLine((int)Genre.NonFiction);
+            //Console.WriteLine((int)Genre.Science);
 
+
+            #endregion
+
+            #region Q6
+
+            int genreNumber = 1;
+            Console.WriteLine((Genre)genreNumber);
 
             #endregion
         }
