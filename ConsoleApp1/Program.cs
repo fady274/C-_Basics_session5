@@ -18,11 +18,18 @@
             #endregion
 
             #region Q03
+            //Book B = new Book();
+            //B.Title = "C#";
+            //Console.WriteLine(B.Title);
+
+
+            #endregion
+
+            #region Q04
+
             Book B = new Book();
-            B.Title = "C#";
-            Console.WriteLine(B.Title);
-
-
+            B.type = Genre.Science;
+            Console.WriteLine(B.type);
             #endregion
         }
     }

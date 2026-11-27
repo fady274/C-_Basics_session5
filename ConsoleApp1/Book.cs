@@ -11,5 +11,7 @@ namespace ConsoleApp1
         public string Title { get; set; }
         private string password { get; set; }
         internal int copiesInStock = 5;
+
+        public Genre type;
     }
 }
