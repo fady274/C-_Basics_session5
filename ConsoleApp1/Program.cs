@@ -29,7 +29,15 @@
 
             Book B = new Book();
             B.type = Genre.Science;
-            Console.WriteLine(B.type);
+            //Console.WriteLine(B.type);
+            #endregion
+
+            #region Q05
+            Console.WriteLine((int)Genre.Fiction);
+            Console.WriteLine((int)Genre.NonFiction);
+            Console.WriteLine((int)Genre.Science);
+
+
             #endregion
         }
     }
