@@ -8,6 +8,7 @@ namespace ConsoleApp1
 {
     internal class Book
     {
+        public string Title { get; set; }
         private string password { get; set; }
         internal int copiesInStock = 5;
     }
