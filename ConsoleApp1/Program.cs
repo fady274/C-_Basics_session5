@@ -42,8 +42,17 @@
 
             #region Q6
 
-            int genreNumber = 1;
-            Console.WriteLine((Genre)genreNumber);
+            //int genreNumber = 1;
+            //Console.WriteLine((Genre)genreNumber);
+
+            #endregion
+
+            #region Q07
+
+            Genre genre = Genre.Fiction;
+
+            string res = genre.ToString();
+            Console.WriteLine(res.GetType());
 
             #endregion
         }
