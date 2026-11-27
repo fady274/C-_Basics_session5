@@ -57,11 +57,22 @@
             #endregion
 
             #region Q08
-            string genreText = "Science";
+            //string genreText = "Science";
 
-            Genre result = Enum.Parse<Genre>(genreText);
-            Console.WriteLine(result.GetType());
-            Console.WriteLine(result);
+            //Genre result = Enum.Parse<Genre>(genreText);
+            //Console.WriteLine(result.GetType());
+            //Console.WriteLine(result);
+
+            #endregion
+
+            #region Q09
+
+            string genreText = "Mystery";
+            bool isparsed = Enum.TryParse<Genre>(genreText, true, out Genre result);
+            if (isparsed && Enum.IsDefined(typeof(Genre), result))
+                Console.WriteLine("Done");
+            else
+                Console.WriteLine("Fails");
 
             #endregion
         }
